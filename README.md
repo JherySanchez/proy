@@ -1,6 +1,11 @@
 # Sistema de Gestión de Tickets Distribuidos
+## Link de PPTs
+https://docs.google.com/presentation/d/1MMgWyVskKynpNLCdLKc33SxwDnDGwCXSvqNWN0qmhdA/edit?usp=sharing
+
+##
 Este proyecto implementa una arquitectura de microservicios distribuidos para la gestión de comandas y asignación de personal.
 Su objetivo es garantizar la **Alta Disponibilidad** y **Consistencia de Datos**, evitando que los pedidos de los clientes se pierdan si ocurre una caída del servidor o cortes de red.
+
 
 El sistema se compone de dos microservicios (nodos):
 * **Ticket-Service (Puerto 8081):** Representa la Caja/Punto de Venta (POS). Recibe el pedido del cliente, guarda la información y se encarga de la resiliencia del sistema. Incluye una función de auto-asignación para "Clientes Anónimos" (de paso).

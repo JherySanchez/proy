@@ -55,4 +55,4 @@ Para demostrar que la arquitectura distribuida funciona correctamente, apaga el 
     1. `[RECUPERACIÓN INICIADA] Se encontraron 1 pedidos pendientes de sincronización. Intentando recuperar...`
     2. `[ROLL-FORWARD] Intentando conectar de nuevo por la red para el pedido...`
     3. `[RECUPERACIÓN EXITOSA] El antiguo pedido TICKET-... fue sincronizado automáticamente y asignado al mozo...`
-* **La base de datos se actualiza internamente al estado `ASIGNADO` de manera transparente y sin duplicar la comanda.
+* La base de datos se actualiza internamente al estado `ASIGNADO` de manera transparente y sin duplicar la comanda.
